@@ -24,11 +24,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'a31_p(9f+$ses7*!o&1wmt$)$p%j8b=!r$uqku+ixzzm#riaij'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True #turned off for heroku deployment
-DEBUG = False
+DEBUG = True #turned off for heroku deployment
+#DEBUG = False
 
-#ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com'] #commented for heroku deployment
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','.pythonanywhere.com'] #commented for heroku deployment
+#ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
